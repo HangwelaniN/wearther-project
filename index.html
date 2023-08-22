@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weatherHomework</title>
+  </head>
+  <body>
+    
+    <div class="container"> 
+    <form id="formal">
+      <input type="text"
+      placeholder="Type a city..."
+      id="searching"
+      autocomplete="off"
+      autofocus="on"></input>
+      <input type="submit" value="search"></input>
+      
+    </form>
+  
+    <h1 id="city"></h1>
+    <div id="dateTime"></div>
+    <div id="sky"></div>
+
+
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col-4">
+        <span id ="temp"></span>
+       <span id="degree">℃</span>
+    </div>
+    <div class="col-6">
+      <ul>
+        <li>Humidity: <span id="humi"></span>%</li>
+        <li>Wind: <span id="wind"></span>km/h</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+    <script src="index.js"></script>
+
+  </body>
+</html>

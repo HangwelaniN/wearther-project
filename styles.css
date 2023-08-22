@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  padding-right: 0 30px;
+  padding-left: 0 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: whitesmoke;
+}
+#formal {
+  cursor: pointer;
+}
+#dateTime {
+  opacity: 0.5;
+}
+#sky {
+  opacity: 0.5;
+}
+h1 {
+  font-size: 50px;
+}
+ul {
+  opacity: 0.5;
+  list-style-type: none;
+  padding: 0px 15px;
+}
+#temp {
+  font-size: 50px;
+}
+#degree {
+  position: fixed;
+}
